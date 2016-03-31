@@ -1,0 +1,560 @@
+@charset "UTF-8";
+body{	
+	background-color:white;
+	xbackground-image:url(../starbackground.jpg);
+	xbackground-repeat:no-repeat;
+	background-position:right;
+	background-size:;
+	background-repeat:repeat-y;
+	color:white;
+}
+
+h3{
+	font-family:"Star Jedi";
+	}
+	
+ table, th, td {
+    border: 3px solid #089;
+    border-collapse:collapse;
+	text-align:center;
+	border-bottom:none;
+	padding:5px;
+	xborder-left:none;
+	xborder-right:none;
+	xborder-top:none;
+	
+}
+
+th{
+	font-family:"Star Jedi";
+	font-weight:lighter;
+	}
+
+.header{
+	background:-moz-linear-gradient(#cccccc, black); /* For Firefox 3.6 to 15 */
+	background: -webkit-linear-gradient(#cccccc, black); 
+	height:200px;
+	background-position:center;
+	}
+
+
+.container{background-color:black;
+width:100%;
+xmargin-top:0;
+position:relative;
+xmargin-left:-8px;
+}
+
+	
+#menu{
+	xposition:relative;
+	xborder-radius:1px;
+	xdisplay:block;
+	xbackground:-moz-linear-gradient(#cccccc, green); /* For Firefox 3.6 to 15 */
+	xbackground:-webkit-linear-gradient(#cccccc, green); /* For Firefox 3.6 to 15 */
+	xwidth:100%;
+	xlist-style-type:none;
+	xpadding-top:26px;
+	xheight:70px;
+	xtext-align:center;
+	xlist-style-type:none;
+	}
+	
+	
+	
+	#menu a{
+		
+		xwidth:100%;
+		xfont-size:17px;
+		xxborder:1px solid #fff;
+		xpadding-top:15px;
+		xpadding-bottom:10px;
+		xpadding-right:110px;
+		xpadding-left:110px;
+		xbackground:#333;
+		xcolor:white;
+		xxborder-bottom:none;
+		xtext-decoration:none;
+		xxborder-radius:2px;
+	    xmargin-left:1%;
+		
+		}
+		
+	
+
+		
+	#menu a:hover{
+		xbackground:black;
+		xcolor:#FFD162;
+		xcursor:pointer;
+		}
+	
+
+		
+		.open > .dropdown-menu{
+			xborder-radius:2px;
+			xpadding-left:0;
+			background:#fff;
+			margin-left:22.5%;
+			padding-right:;
+			margin-top:11px;
+			padding-bottom:0;
+			padding-top:0;
+			xbox-shadow:0px 0px 10px yellow;
+			border-bottom:none;
+			border-right:none;
+			border-left:none;
+			border-top:none;
+			}
+		
+		
+		
+		.dropdown-menu > li > a{
+			xmargin-top:2px;
+			xmargin-left:100px;
+			xposition:relative;
+			}
+			 
+				
+			
+		
+	
+	#footer{
+	clear:both;
+	background:-moz-linear-gradient(bottom,#cccccc, black); /* For Firefox 3.6 to 15 */
+	background: -webkit-linear-gradient(bottom,#cccccc, black); 
+	height:150px;
+	color:white;
+	xmargin-top:10px;
+	border-top:4px solid #e3dddd;
+	}
+	
+	.well{
+	color:black;
+	}
+	
+	#onegame{
+	border:3px solid #089;
+	border-left:none;
+	border-right:none;
+	}
+
+	#gametwo{
+	clear:both;
+	}
+
+	#battlefront{
+float:left;
+xborder:1px solid white;
+	}
+	
+	#battlefront2{
+		float:right;
+		}
+	
+
+	.game-text{
+	width:100%;
+	xborder:1px solid white;
+	border-left:none;
+	border-right:none;
+	padding-left:410px;
+	padding-top:5px;
+	}
+	
+	
+	.game-video{
+		xpadding-left:32%;
+		xborder:1px solid white;
+		xclear:both;
+		}
+		
+		
+	.trailer1{
+		width:100%;
+		}
+		
+	
+	.poster{
+		box-shadow:1px 1px 90px 5px #222;
+		margin-top:20px;
+		height:400px;
+		width:300px;
+		}
+	
+	.moviecontainer{
+		height:450px;
+		background-image:url(images/theaterimage.jpg);
+		background-position:center; 
+		background-size:cover;
+		}
+		
+	
+	#gametwo{
+	border:3px solid #089;
+	border-left:none;
+	border-right:none;
+	xbackground:#ebebeb;
+		}
+		
+	.gametexttwo{
+		width:100%;
+		xborder:2px solid green;
+		xtext-indent:10px;
+		padding-top:10px;
+		margin-left:4px;
+		}
+		
+	#kotr{
+		float:left;
+		}
+		
+	#gamethree{
+		border:3px solid #089;
+		border-left:none;
+		border-right:none;
+		}
+		
+		
+		.kotr-text{
+			width:100%;
+			xborder:1px solid white;
+			border-left:none;
+			border-right:none;
+			padding-left:410px;
+			padding-top:5px;
+			}
+			
+	.movietext{
+		xfont-size:14px;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+		
+
+	
+.carousel-inner{
+		}
+		
+ 	#myCarousel{
+		width:90%;
+		xpadding-left:10%;
+		position:relative;
+		left:5%;
+		margin-bottom:10px;
+		box-shadow:5px 0px 50px #ccc;
+		}
+		
+		
+		
+	#nav{
+		background-color:#333;
+		width:100%;
+		xposition:fixed;
+		xfloat:left;
+		xtop:10%;
+		xz-index:4;
+		xmargin-left:-14px;
+		xmargin-right:;
+		border-radius:5px;
+		}
+			
+		
+	#nav_wrapper{
+		text-align:left;
+		margin:0 auto;
+		padding:0;
+		width:100%;
+		}	
+		
+	#nav ul{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		position:relative;
+		text-align:center;
+		}
+		
+		#nav ul li{
+			display:inline-block;
+			xbackground:red;
+			margin:5px;
+			}
+			
+	#nav ul li:hover{
+		xbackground:red;
+		}
+		
+	#nav ul li a,visited{
+		color:white;
+		display:block;
+		padding:20px 100px;
+		text-decoration:none;
+		xmargin-left:20px;
+		background:#333;
+		}	
+		
+		
+	#nav ul li a:hover{
+		color:black;
+		background:#ccc;
+		border-radius:5px;
+		}
+	
+	
+	#nav ul li:hover ul{
+		display:block;
+		z-index:3;
+		background:#ccc;
+		border-radius:10px;
+		}
+	#nav ul ul{
+		display:none;
+		position:absolute;
+		background-color:red;
+		xpadding-top:50px;
+		margin-top:0.04em;
+		}
+	
+		
+	#nav ul ul li{
+		display:block;
+		}
+		
+		
+	#nav ul ul li a,visted{
+		color:white;
+		xbox-shadow:1px 1px 20px 2px;
+		border-radius:10px;
+		padding:10px 55px;
+		}
+		
+	#nav ul ul li a:hover{
+		color:#089;
+		}
+		
+		
+		.starheader{
+			position:relative;
+			width:100%;
+			xmargin-left:10%;
+			xborder:1px solid white;
+			}
+		
+		
+		.image {
+    position:absolute;
+	background:white;
+	border-radius:50px;
+    top:60px;
+    left:50px;
+    width:50px;
+    xheight: 85px;
+    margin:10px 0 0 -30px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+}
+
+	.image2{
+	position:absolute;
+	background:#222;
+	border-radius:50px;
+    top:71px;
+    left:64%;
+    width: 50px;
+    xheight: 85px;
+    xmargin:10px 0 0 850px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 10s linear infinite;
+    animation:spin 10s linear infinite;
+		}
+		
+	.page-header{
+		font-family:"Star Jedi";
+		padding:0 0;
+		}
+		
+	#anakinimg{
+		dispay:none;
+		}
+		
+
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+@media (max-width: 1200px){
+	#nav ul li a,visited{
+		color:white;
+		display:block;
+		padding:10px 70px;
+		text-decoration:none;
+		xmargin-left:20px;
+		background:#333;
+		}	
+	}
+
+
+
+
+@media (max-width: 767px){
+	#nav ul li a,visited{
+		color:white;
+		display:block;
+		padding:10px 30px;
+		text-decoration:none;
+		xmargin-left:20px;
+		background:#333;
+		}	
+	
+	
+		
+	}
+
+
+
+		
+		
+	
+	
+@media (max-width: 480px) { 
+
+.header{
+	height:100px;
+	}
+
+
+#nav ul li a,visited{
+		color:white;
+		display:block;
+		padding:5px 1px;
+		text-decoration:none;
+		xmargin-left:20px;
+		background:#333;
+		}	
+
+
+#nav ul ul li a,visted{
+		color:white;
+		xbox-shadow:1px 1px 20px 2px;
+		border-radius:10px;
+		padding:10px 20px;
+		}
+
+
+
+.image{
+	xleft:50%;
+	display:none;
+	}
+	
+.starheader{
+	width:100%;
+	margin-right:-1%;
+	height:100px;
+	xmargin-right:50px;
+	xborder:1px solid white;
+	position:absolute;
+	right:5px;
+	}
+
+
+
+		#menu{
+			padding-top:10px;
+			background:grey;
+			height:auto;
+			}
+
+
+		#menu a{
+			text-align:center;
+			padding-top:5px;
+			padding-bottom:5px;
+			padding-left:10px;
+			padding-right:10px;
+			xmargin-top:0.4em;
+		}
+
+		.image2{
+			display:none;
+		}
+	
+		.vader{width:100%;}
+	
+		#obiold{margin-right:15px;}
+
+		#boba{
+	     width:100%;
+		}
+
+		#battlefront{
+			width:90%;
+			margin-left:20px;
+			}
+			
+			
+			#battlefront2{width:100%;}
+			
+			
+		.game-text{
+			clear:both;
+			color:white;
+			padding:0;
+			margin:0;
+			border-bottom:none;
+			width:100%;
+			xborder:1px solid white;
+			}
+			
+			.trailer1{ 
+				margin-top:-100px;
+				width:100%;
+				}
+				
+		#onegame{
+	border:5px solid #089;
+	border-left:none;
+	border-right:none;
+	margin-bottom:50px;
+	}
+				
+				
+		#gametwo{
+	border:5px solid #089;
+	border-left:none;
+	border-right:none;	}
+	
+	
+	#kotr{
+		float:left;
+		width:100%;
+		}
+		
+	.kotr-text{
+		clear:both;
+			color:white;
+			padding:0;
+			xmargin:0;
+			border-bottom:none;
+			width:100%;
+			xborder:1px solid white;
+		}
+	
+	
+	.poster{
+		margin-top:25%;
+		width:35%;
+		height:200px;
+		width:40%;
+		}
+		
+	.moviecontainer{
+		
+		}
+			
+}
+	
